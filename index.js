@@ -93,7 +93,7 @@ function onClick(evt) {
       }
       player = player === "X" ? "O" : "X";
       
-    });
+    }, 500);
   } else {
     alert("Change!!!");
   }
